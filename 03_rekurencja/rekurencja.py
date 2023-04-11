@@ -11,7 +11,7 @@ def fibonacci(n):
 
 
 nazwiska = []
-with open("naziwska.txt", 'r', encoding='UTF-8') as f:
+with open("nazwiska.txt", 'r', encoding='UTF-8') as f:
     for line in f:
         nazwiska.append(line.strip())
 
